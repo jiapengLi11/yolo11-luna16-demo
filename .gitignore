@@ -1,0 +1,14 @@
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pt
+*.onnx
+*.mp4
+*.avi
+*.log
+runs/
+dataset/
+record/
+dist/
+build/

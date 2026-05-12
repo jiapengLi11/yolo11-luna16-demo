@@ -1,0 +1,16 @@
+# Edit `path` to your local dataset root before training.
+# The expected directory structure is:
+# dataset_root/
+#   images/train
+#   images/val
+#   images/test
+#   labels/train
+#   labels/val
+#   labels/test
+path: ../dataset/chest_node_yolo_format
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: nodule
